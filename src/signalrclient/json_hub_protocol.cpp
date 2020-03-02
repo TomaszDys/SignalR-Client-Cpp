@@ -83,6 +83,6 @@ namespace signalr
             break;
         }
 
-        return std::move(value);
+        return value;
     }
 }
